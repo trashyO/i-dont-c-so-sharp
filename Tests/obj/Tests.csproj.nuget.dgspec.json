@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/Sandbox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/Sandbox.csproj",
+        "projectName": "Sandbox",
+        "projectPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/Sandbox.csproj",
+        "packagesPath": "/Users/tracey.steinbach/.nuget/packages/",
+        "outputPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/Users/tracey.steinbach/.dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/tracey.steinbach/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/StringUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/StringUtility.csproj",
+        "projectName": "StringUtility",
+        "projectPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/StringUtility.csproj",
+        "packagesPath": "/Users/tracey.steinbach/.nuget/packages/",
+        "outputPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/Users/tracey.steinbach/.dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/tracey.steinbach/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/Tests.csproj",
+        "packagesPath": "/Users/tracey.steinbach/.nuget/packages/",
+        "outputPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/Users/tracey.steinbach/.dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/tracey.steinbach/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/Sandbox.csproj": {
+                "projectPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/Sandbox.csproj"
+              },
+              "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/StringUtility.csproj": {
+                "projectPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/StringUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "SandboxPackage": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/StringUtility.csproj",
+    "projectName": "StringUtility",
+    "projectPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/StringUtility.csproj",
+    "outputPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/Users/tracey.steinbach/.dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "net472"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "net472": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "net472": {}
+  }
+}

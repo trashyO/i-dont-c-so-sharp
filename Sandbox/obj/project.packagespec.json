@@ -1,0 +1,47 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/Sandbox.csproj",
+    "projectName": "Sandbox",
+    "projectPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/Sandbox.csproj",
+    "outputPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/Users/tracey.steinbach/.dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "net472"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "net472": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "net472": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.9.0, )"
+        },
+        "NUnit3TestAdapter": {
+          "target": "Package",
+          "version": "[3.11.0, )"
+        },
+        "nunit": {
+          "target": "Package",
+          "version": "[3.11.0, )"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/bin/Debug/net472/StringUtility.dll
+/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/bin/Debug/net472/StringUtility.pdb
+/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/obj/Debug/net472/StringUtility.csprojAssemblyReference.cache
+/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/obj/Debug/net472/StringUtility.csproj.CoreCompileInputs.cache
+/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/obj/Debug/net472/StringUtility.AssemblyInfoInputs.cache
+/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/obj/Debug/net472/StringUtility.AssemblyInfo.cs
+/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/obj/Debug/net472/StringUtility.dll
+/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/obj/Debug/net472/StringUtility.pdb

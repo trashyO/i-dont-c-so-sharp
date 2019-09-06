@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/StringUtility.csproj": {}
+  },
+  "projects": {
+    "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/StringUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/StringUtility.csproj",
+        "projectName": "StringUtility",
+        "projectPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/StringUtility.csproj",
+        "packagesPath": "/Users/tracey.steinbach/.nuget/packages/",
+        "outputPath": "/Users/tracey.steinbach/RiderProjects/LearningCSharp/StringUtility/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/Users/tracey.steinbach/.dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/tracey.steinbach/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
