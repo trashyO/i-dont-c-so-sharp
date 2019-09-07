@@ -329,7 +329,21 @@ namespace Exercises
                 yield return square;
             }
         }
-        
 
+
+        public static string FindLastWord(IEnumerable<string> input)
+        {
+            var results = input.Where(word => word.Contains("e") || word.Contains("E"))
+                .OrderBy(word => word)
+                .Select(word => word)
+                .ToList();
+
+            if (results.Any())
+            {
+                return $"The last word is {results[results.Count - 1]}";
+            }
+
+            return string.Empty;
+        }
     }
 }

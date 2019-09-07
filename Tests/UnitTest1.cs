@@ -267,7 +267,15 @@ namespace Tests
         {
             Assert.AreEqual(expected, StringAndNumUtility.AreSquareYield(numbers, squares));
         }
-
-
+        
+        [TestCase(new string[]{"RemovE", "all","word","that","do","not","contain","the","lettEr","E"}, "The last word is the")]
+        [TestCase(new string[]{"The","fox","jumped","over","the","box"}, "The last word is The")]
+        [TestCase(new string[]{"Noe","Worde","Withe","Noe","e"}, "The last word is Worde")]
+        [TestCase(new string[]{"No","Word","With","You","Know","what"}, "")]
+        [TestCase(new string[]{"he","she","it","we","you","they"}, "The last word is we")]
+        public void TestFindLastWord(string[] input, string expected)
+        {
+            Assert.AreEqual(expected, StringAndNumUtility.FindLastWord(input));
+        }
     }
 }
