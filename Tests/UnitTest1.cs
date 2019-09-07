@@ -259,6 +259,15 @@ namespace Tests
             Assert.AreEqual(expected, StringAndNumUtility.AreSquareFast(numbers, squares));
         }
 
+        [TestCase(new int[] {2, 3, 4, 5, 6}, new int[] {4, 9, 16, 25, 36}, true)]
+        [TestCase(new int[] {2, 3, 4, 5, 6}, new int[] {1, 9, 16, 20, 24}, false)]
+        [TestCase(new int[] {2, 3, 4, 5, 6}, new int[] {4, 9, 16, 20, 20}, false)]
+        [TestCase(new int[] {1, 5, 3}, new int[] {1, 25, 9, 9}, false)]
+        public void TestForSqauresYield(int[] numbers, int[] squares, bool expected)
+        {
+            Assert.AreEqual(expected, StringAndNumUtility.AreSquareYield(numbers, squares));
+        }
+
 
     }
 }

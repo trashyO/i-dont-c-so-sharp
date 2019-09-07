@@ -1,9 +1,0 @@
-/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll
-/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb
-/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll
-/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/obj/Debug/netcoreapp2.2/Sandbox.csprojAssemblyReference.cache
-/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/obj/Debug/netcoreapp2.2/Sandbox.csproj.CoreCompileInputs.cache
-/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/obj/Debug/netcoreapp2.2/Sandbox.AssemblyInfoInputs.cache
-/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/obj/Debug/netcoreapp2.2/Sandbox.AssemblyInfo.cs
-/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/obj/Debug/netcoreapp2.2/Sandbox.dll
-/Users/tracey.steinbach/RiderProjects/LearningCSharp/Sandbox/obj/Debug/netcoreapp2.2/Sandbox.pdb
