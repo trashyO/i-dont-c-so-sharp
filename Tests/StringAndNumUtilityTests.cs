@@ -6,7 +6,7 @@ using Exercises;
 namespace Tests
 {
     [TestFixture]
-    public class Tests
+    public class StringAndNumUtilityExperimentTests
     {
         private Dictionary<string, int[,]> _testData;
 

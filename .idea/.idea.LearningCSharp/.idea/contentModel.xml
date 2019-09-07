@@ -42,8 +42,8 @@
             </e>
           </e>
         </e>
+        <e p="StringAndNumUtilityTests.cs" t="Include" />
         <e p="Tests.csproj" t="IncludeRecursive" />
-        <e p="UnitTest1.cs" t="Include" />
       </e>
     </e>
   </component>
