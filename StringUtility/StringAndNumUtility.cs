@@ -266,7 +266,16 @@ namespace Exercises
                 return false;
             }
                 
-            var nonSquares = numbers.Where((number, index) => number * number != squares.ElementAt(index))
+            var nonSquares = numbers.Where((number, index) =>
+                {
+                    if (number * number != squares.ElementAt(index))
+                    {
+                        Console.WriteLine($"Found a number that doesn't have it's corresponding square {number}");
+                        return true;
+                    }
+
+                    return false;
+                })
                                         .Select(number => number)
                                         .ToList();
 
@@ -284,11 +293,43 @@ namespace Exercises
 
             foreach (int number in query)
             {
+                Console.WriteLine($"Found a number that doesn't have it's corresponding square {number}");
                 return false;
             }
 
             return true;
         }
+
+        public static bool AreSquareYield(IEnumerable<int> numbers, IEnumerable<int> squares)
+        {
+            if (numbers.ToList().Count != squares.ToList().Count)
+            {
+                return false;
+            }
+
+            int index = 0;
+            foreach (var number in numbers)
+            {
+                foreach (var i in ReturnNonSquare(number, squares.ElementAt(index)))
+                {
+                    Console.WriteLine($"Found a non-square result {i}");
+                    return false;
+                }
+
+                index++;
+            }
+
+            return true;
+        }
+
+        public static IEnumerable<int> ReturnNonSquare(int number, int square)
+        {
+            if (number * number != square)
+            {
+                yield return square;
+            }
+        }
+        
 
     }
 }

@@ -14,10 +14,7 @@
 /Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/bin/Debug/net472/nunit.framework.dll
 /Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/bin/Debug/net472/Sandbox.InversionOfControl.DependencyContracts.dll
 /Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/bin/Debug/net472/Sandbox.InversionOfControl.Entity.dll
-/Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/bin/Debug/net472/Sandbox.dll
 /Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/bin/Debug/net472/StringUtility.dll
-/Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/bin/Debug/net472/Sandbox.pdb
-/Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/bin/Debug/net472/Sandbox.dll.config
 /Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/bin/Debug/net472/StringUtility.pdb
 /Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/obj/Debug/net472/Tests.csproj.CopyComplete
 /Users/tracey.steinbach/RiderProjects/LearningCSharp/Tests/obj/Debug/net472/Tests.dll
