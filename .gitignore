@@ -1,3 +1,7 @@
-# Exclude all BeginnerCSharpExercisesTest
+# Exclude all these files 
 BeginnerCSharpExercisesTest
 BeginnerCSharpExercises
+StringUtility/bin
+StringUtility/obj
+Tests/bin
+Test/obj
